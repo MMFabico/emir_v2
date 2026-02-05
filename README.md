@@ -1,4 +1,4 @@
-# emir_v2
+# EMIR_V2
 
 A new Flutter project.
 
