@@ -33,7 +33,7 @@ class _SplashScreenState extends State<SplashScreen> {
           children: [
             Image.asset(
               'assets/images/emir.png',
-              height: screenHeight * 0.75, // 3/4 of screen height
+              height: screenHeight * 0.75,
             ),
           ],
         ),

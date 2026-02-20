@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'eMIR',
       theme: ThemeData(
+        fontFamily: "Inter",
         colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xFF06543B)),
         useMaterial3: true,
       ),
