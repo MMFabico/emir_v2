@@ -1,6 +1,5 @@
 import 'package:emir_new/reports.dart';
 import 'package:flutter/material.dart';
-import 'farms.dart'; // for FarmPage
 
 class ReportSummaryCard extends StatelessWidget {
   final List<Map<String, String>> reports; // each report has name, date, crop

@@ -2,7 +2,6 @@ import 'package:emir_new/farm_summary_card.dart';
 import 'package:emir_new/report_summary_card.dart';
 import 'package:flutter/material.dart';
 import 'nav_drawer.dart';
-import 'farm_summary_card.dart'; // import the widget
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -30,6 +29,14 @@ class HomePage extends StatelessWidget {
                       onPressed: () {
                         Scaffold.of(context).openDrawer();
                       },
+                    ),
+                  ),
+                  const Text(
+                    "Home",
+                    style: TextStyle(
+                      fontSize: 26,
+                      fontWeight: FontWeight.bold,
+                      color: Color(0xFF06543B),
                     ),
                   ),
                   IconButton(
