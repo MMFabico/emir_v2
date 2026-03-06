@@ -11,6 +11,8 @@ class FarmPage extends StatefulWidget {
 
 class _FarmPageState extends State<FarmPage> {
   // TODO: Replace with dynamic farm data (for now, this is just placeholder data to show the UI)
+  // TODO: Add CURRENT INSECTICIDE in the card
+  // TODO: When a card is pressed, navigate to a detailed farm page with all the info and reports for that farm.
   final List<Map<String, String>> farms = [
     {
       "name": "Farm 1",

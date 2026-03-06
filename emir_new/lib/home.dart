@@ -82,17 +82,17 @@ class HomePage extends StatelessWidget {
                   ReportSummaryCard(
                     reports: [
                       {
-                        "name": "Report 1",
+                        "name": "Farm 1",
                         "date": "01/02/2026",
                         "description": "Lorem ipsum dolor sit amet...",
                       },
                       {
-                        "name": "Report 2",
+                        "name": "Farm 2",
                         "date": "02/26/2026",
                         "description": "Sed ut perspiciatis unde omnis iste...",
                       },
                       {
-                        "name": "Report 3",
+                        "name": "Farm 1",
                         "date": "03/15/2026",
                         "description": "At vero eos et accusamus...",
                       },
